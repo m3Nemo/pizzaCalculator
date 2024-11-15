@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Converter</title>
+</head>
+<body>
+    <div id = 'menuContainer'>
+      <div id = 'menuIconContainer'>
+        <p class = 'menuIcon'>=</p>
+      </div>
+      <div class = 'menuTitleContainer'>
+        <p class = 'title'>Pizza Calculator</p>
+        <p class = 'subtitle'>Pizza is Awesome</p>
+      </div>
+    </div>
+    <div id = 'bodyContainer' >
+      <div class = 'bodyElementContainer'>
+          <p class = 'info'>200</p>
+          <p class = 'currency'>$<br>Dollar</p>
+      </div>
+      <div class = 'bodyElementContainer'>
+          <p class = 'info'>150</p>
+          <p class = 'currency'>€<br>Dollar</p>
+      </div>
+      <div class = 'bodyElementContainer'>
+          <p class = 'info'>150</p>
+          <p class = 'currency'>€<br>Dollar</p>
+      </div>
+    </div>
+</body>
+</html>
+
+<style>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Converter</title>
+</head>
+<body>
+    <div id = 'menuContainer'>
+      <div id = 'menuIconContainer'>
+        <p class = 'menuIcon'>=</p>
+      </div>
+      <div class = 'menuTitleContainer'>
+        <p class = 'title'>Pizza Calculator</p>
+        <p class = 'subtitle'>Pizza is Awesome</p>
+      </div>
+    </div>
+    <div id = 'bodyContainer' >
+      <div class = 'bodyElementContainer'>
+          <p class = 'info'>200</p>
+          <p class = 'currency'>$<br>Dollar</p>
+      </div>
+      <div class = 'bodyElementContainer'>
+          <p class = 'info'>150</p>
+          <p class = 'currency'>€<br>Dollar</p>
+      </div>
+      <div class = 'bodyElementContainer'>
+          <p class = 'info'>150</p>
+          <p class = 'currency'>€<br>Dollar</p>
+      </div>
+    </div>
+</body>
+</html>
+
+<style>
+* {
+    box-sizing: border-box; /* Ensure padding and borders are included in the width/height calculation */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure body fills the full height */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+body {
+    background-color: #ab1515;
+    font-family: sans-serif;
+}
+
+#bodyContainer {
+    background-color: white;
+    border-radius: 20px 20px 0 0; /* Keep the rounded corners */
+    width: calc(100vw - 10px); /* Subtract padding or margin to prevent overflow */
+    height: 100vh; /* Ensure the container spans the full viewport height */
+    padding: 5%; /* Internal spacing */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden; /* Prevent overflow */
+}
+
+#menuContainer {
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10%;
+    padding: 0 10%;
+}
+
+#menuContainer > * {
+    color: white;
+}
+
+#bodyContainer > * {
+    color: black;
+    flex: 0 0 100%; /* Allow items to stack vertically */
+}
+
+.subtitle {
+    font-size: 14px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.menuIcon {
+    font-size: 30px;
+}
+
+p {
+    margin: 0;
+}
+
+.titleSubtitle {
+    width: 30%;
+}
+
+.info {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: end;
+}
+
+.bodyElementContainer {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    justify-content: center;
+    width: 100%; /* Ensure the container fits the viewport */
+}
+
+.bodyElementContainer > * {
+    flex: 0 0 45%; /* Make each element take 45% of the container width */
+}
+</style>
+</style>
